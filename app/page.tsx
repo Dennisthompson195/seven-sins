@@ -11,7 +11,7 @@ export const metadata = {
   description: 'Artisan Cocktail Supply.',
   openGraph: {
     type: 'website',
-    images: 'https://seven-sins-cocktail-co.vercel.app/opengraph-image.png?7b8234c493421156', 
+    images: 'https://seven-sins-cocktails-co.vercel.app/opengraph-image.png?7b8234c493421156', 
   }
 };
 

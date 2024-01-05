@@ -10,7 +10,7 @@ export default function ProductGridItems({ products }: { products: Product[] }) 
 
         <Grid.Item key={product.handle} className="animate-fadeIn h-full w-full xs:w-3/4 mx-auto">
         
-          <Link className="relative xs:max-md:-left-6 -left-4 mx-auto items-center justify-center flex h-5/6 w-full " href={`/product/${product.handle}`}> {/*inline-block*/}
+          <Link className="relative xs:max-md:-left-6 -left-4 mx-auto items-center justify-center flex h-full w-full " href={`/product/${product.handle}`}> {/*inline-block*/}
             <GridTileImageTwo
               alt={product.title}
               label={{

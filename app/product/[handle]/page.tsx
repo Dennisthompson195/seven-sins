@@ -82,7 +82,7 @@ export default async function ProductPage({ params }: { params: { handle: string
       />
       <div className="mx-auto max-sm:-mt-20 max-h-fit  max-w-screen-2xl  w-screen px-4 mt-2 overflow-x-hidden">
         <div className="flex flex-col w-screen mx-auto max-sm:-ml-2 rounded-lg border border-none bg-white p-8   md:p-12 lg:flex-row lg:gap-8">
-          <div className="h-full w-5/6 sm:w-full xs:max-sm:ml-6 lg:-ml-24 md  max-sm:mx-auto  basis-full lg:basis-4/6 2xl:basis-2/6 relative lg:-mt-2 xs:max-md:mt-16 ">
+          <div className="h-full w-5/6 sm:w-full xs:max-sm:ml-6 lg:-ml-24 md  max-sm:mx-auto  basis-full lg:basis-4/6 2xl:basis-2/6 relative lg:mt-2 xs:max-md:mt-16 ">
             <Gallery
               images={product.images.map((image: Image) => ({
                 src: image.url,

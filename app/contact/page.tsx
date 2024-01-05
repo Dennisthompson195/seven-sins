@@ -8,11 +8,10 @@ export const metadata = {
 
 export default async function HomePage() {
   return (
-    <div className="h-fit">
+    <div className="h-full">
       <section className="relative top-40 mx-auto text-center">
           <h1 className="md:text-base max-md:text-sm uppercase mb-24 w-screen px-8">This page is currently under construction to feature a secure direct messaging platform. <br /> in the meantime, we have decided to display our contact information directly to the public.<br /> We thank you for your patience and understanding as we grow into our new business! &#128513;</h1>
         </section>
-        <h1>duck</h1>
     <div className="h-fit flex flex-row w-screen px-12 text-black relative top-40 align-middle">
       <div className="  mx-auto align-middle place-items-center justify-center ">
         

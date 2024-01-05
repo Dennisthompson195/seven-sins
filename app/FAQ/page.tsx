@@ -9,7 +9,7 @@ export const metadata = {
 
 export default async function HomePage() {
   return (
-    <div className="mx-auto pl-6 w-screen items-center justify-center align-middle mb-28">
+    <div className="mx-auto h-full pl-6 w-screen items-center justify-center align-middle mb-40">
     <h1 className=' text-3xl max-sm:text-xl  z-40 mt-28 mb-6 text-center' >Frequently Asked Questions</h1>  
     
     <ul className="max-sm:text-sm"> 
@@ -19,7 +19,6 @@ export default async function HomePage() {
             <p className=" px-16 mx-auto lg:w-1/2 mb-0">Syrups: up to 2 years, once opened consume within 6 months.</p>
             <p className=" px-16 mx-auto lg:w-1/2 mb-0">Mixers: one year, once opened consume within 4-6 months.</p>
             <p className=" px-16 mx-auto lg:w-1/2 mb-0">Fruit Chips: 1-2 years. for best results store in an airtight container away from direct sunlight and extreme temperatures.</p>
-            <p>j</p>
             <p className=" px-16 mx-auto lg:w-1/2 mb-0">Sugar Cubes: 1 year. Once opened consume within 6 months.</p>
         </li>
         <li></li>
