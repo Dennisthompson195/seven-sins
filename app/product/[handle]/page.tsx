@@ -2,8 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
-import { GridTileImage } from 'components/grid/tile';
-import Footer from 'components/layout/footer';
+import { GridTileImageTwo } from 'components/grid/tile2';
 import { Gallery } from 'components/product/gallery';
 import { ProductDescription } from 'components/product/product-description';
 import { HIDDEN_PRODUCT_TAG } from 'lib/constants';
@@ -81,9 +80,9 @@ export default async function ProductPage({ params }: { params: { handle: string
           __html: JSON.stringify(productJsonLd)
         }}
       />
-      <div className="mx-auto max-w-screen-2xl px-4">
-        <div className="flex flex-col rounded-lg border border-neutral-200 bg-white p-8 dark:border-neutral-800 dark:bg-black md:p-12 lg:flex-row lg:gap-8">
-          <div className="h-full w-full basis-full lg:basis-4/6">
+      <div className="mx-auto max-sm:-mt-20 max-h-fit  max-w-screen-2xl  w-screen px-4 mt-2 overflow-x-hidden">
+        <div className="flex flex-col w-screen mx-auto max-sm:-ml-2 rounded-lg border border-none bg-white p-8   md:p-12 lg:flex-row lg:gap-8">
+          <div className="h-full w-5/6 sm:w-full xs:max-sm:ml-6 lg:-ml-24 md  max-sm:mx-auto  basis-full lg:basis-4/6 2xl:basis-2/6 relative lg:-mt-2 xs:max-md:mt-16 ">
             <Gallery
               images={product.images.map((image: Image) => ({
                 src: image.url,
@@ -92,7 +91,7 @@ export default async function ProductPage({ params }: { params: { handle: string
             />
           </div>
 
-          <div className="basis-full lg:basis-2/6">
+          <div className="basis-full  xs:max-md:mx-auto xs:max-md:text-center xs:max-md:justify-center xs:max-md:items-center lg:basis-2/6 lg:mt-64 xs:max-md:-mt-6">
             <ProductDescription product={product} />
           </div>
         </div>
@@ -101,7 +100,7 @@ export default async function ProductPage({ params }: { params: { handle: string
         </Suspense>
       </div>
       <Suspense>
-        <Footer />
+
       </Suspense>
     </>
   );
@@ -113,16 +112,16 @@ async function RelatedProducts({ id }: { id: string }) {
   if (!relatedProducts.length) return null;
 
   return (
-    <div className="py-8">
+    <div className="py-8 h-full">
       <h2 className="mb-4 text-2xl font-bold">Related Products</h2>
-      <ul className="flex w-full gap-4 overflow-x-auto pt-1">
+      <ul className="flex w-full gap-4 overflow-x-auto overflow-y-hidden h-full pt-12">
         {relatedProducts.map((product) => (
           <li
             key={product.handle}
-            className="aspect-square w-full flex-none min-[475px]:w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5"
+            className="aspect-square max-w-screen h-full flex-none  xs:w-1/3 md:w-1/4 lg:w-1/5"
           >
-            <Link className="relative h-full w-full" href={`/product/${product.handle}`}>
-              <GridTileImage
+            <Link className="relative h-screen w-full" href={`/product/${product.handle}`}>
+              <GridTileImageTwo
                 alt={product.title}
                 label={{
                   title: product.title,
@@ -140,3 +139,33 @@ async function RelatedProducts({ id }: { id: string }) {
     </div>
   );
 }
+{/*<div className="py-8  h-full -mt-14 bg-neutral-50">
+      <h2 className="mb-6 text-2xl font-bold mx-auto justify-center items-center flex">Related Products</h2>
+      <ul className="flex w-screen h-full gap-4 mx-auto items-center justify-center  overflow-x-auto  pt-1 ">
+        {relatedProducts.map((product) => (
+          <li
+            key={product.handle}
+            className="aspect-square w-screen h-full xs:mx-auto xs:justify-center xs:items-center flex-none  xs:w-1/4 sm:max-md:w-1/2  lg:w-1/12"
+          >
+            <Link className="relative mx-auto  h-full w-screen" href={`/product/${product.handle}`}>
+
+              <GridTileImageTwo
+                alt={product.title}
+                label={{
+                  title: product.title,
+                  amount: product.priceRange.maxVariantPrice.amount,
+                  currencyCode: product.priceRange.maxVariantPrice.currencyCode
+                }}
+                src={product.featuredImage?.url}
+                fill
+                sizes="(min-width: 1024px) 20vw, (min-width: 768px) 25vw, (min-width: 640px) 33vw, (min-width: 475px) 50vw, 100vw"
+              />
+              
+
+            </Link>
+            
+          </li>
+          
+        ))}
+      </ul>
+    </div>*/}

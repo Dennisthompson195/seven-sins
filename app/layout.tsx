@@ -1,4 +1,5 @@
-import Navbar from 'components/layout/navbar';
+import Footer from 'components/layout/footer';
+import LogoheaderTwo from 'components/logoheaderTwo';
 import { GeistSans } from 'geist/font';
 import { ensureStartsWith } from 'lib/utils';
 import { ReactNode, Suspense } from 'react';
@@ -27,18 +28,27 @@ export const metadata = {
         card: 'summary_large_image',
         creator: twitterCreator,
         site: twitterSite
-      }
+      },
     })
 };
 
 export default async function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={GeistSans.variable}>
-      <body className="bg-neutral-50 text-black selection:bg-teal-300 dark:bg-neutral-900 dark:text-white dark:selection:bg-pink-500 dark:selection:text-white">
-        <Navbar />
-        <Suspense>
-          <main>{children}</main>
-        </Suspense>
+      <body className="bg-white pt-4 mx-auto relative w-full max-w-full h-full min-h-max text-black   dark:text-black  "> {/* selection:bg-teal-300  dark:text-black dark:selection:bg-pink-500 dark:selection:text-white */}
+      {/*hidden*/}
+      
+      <div className=' top-0 z-20 ml fixed mx-auto items-center md:inline-flex my-4 md:ml-10 mt-4 mb-10 rounded-sm w-fit'> {/*justify-center */}
+       
+        <LogoheaderTwo />
+      </div>
+      
+      <Suspense>
+        <main>{children}</main>
+      </Suspense>
+      <div className='w-screen h-fit relative bottom-0'>
+        <Footer />
+      </div>
       </body>
     </html>
   );
