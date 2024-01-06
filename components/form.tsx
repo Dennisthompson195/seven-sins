@@ -67,7 +67,7 @@ const Form = ({ formId, MessageForm, forNewPet = true }: {formId: any, MessageFo
         throw new Error(res.status)
       }
 
-      router.push('/contactstd/confirmation')
+      router.push('/contac/confirmation')
     } catch (error) {
       setMessage('Failed to add pet')
     }
