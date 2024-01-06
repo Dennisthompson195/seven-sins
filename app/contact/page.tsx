@@ -1,10 +1,10 @@
-
 export const runtime = 'edge';
 
 export const metadata = {
   title: 'Contact',
   description: 'Search for products in the store.'
 };
+
 
 export default async function HomePage() {
   return (
@@ -19,7 +19,6 @@ export default async function HomePage() {
       <h2 className="text-black   px-4">Email: support@sevensinscocktails.com</h2>
       <h2 className="text-black top-48 px-4">Phone: +1(402) 480-3134</h2>
       </div>
-     
       </div>
       
   </div>
