@@ -27,7 +27,7 @@ const Form = ({ formId, MessageForm, forNewPet = true }: {formId: any, MessageFo
     const { id } = router.query
 
     try {
-      const res = await fetch(`/api/messages/${id}`, {
+      const res = await fetch(`./api/messages/${id}`, {
         method: 'PUT',
         headers: {
           Accept: contentType,

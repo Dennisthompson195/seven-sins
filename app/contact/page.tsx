@@ -1,3 +1,4 @@
+
 export const runtime = 'edge';
 
 export const metadata = {
@@ -8,7 +9,8 @@ export const metadata = {
 
 export default async function HomePage() {
   return (
-    <div className="h-screen">
+    <div className="h-screen mt-12">
+
       <section className="relative top-40 mx-auto text-center">
           <h1 className="md:text-base max-md:text-sm uppercase mb-24 w-screen px-8">This page is currently under construction to feature a secure direct messaging platform. <br /> in the meantime, we have decided to display our contact information directly to the public.<br /> We thank you for your patience and understanding as we grow into our new business! &#128513;</h1>
         </section>
@@ -18,6 +20,7 @@ export default async function HomePage() {
       <h1 className="text-black ">Contact Us</h1>
       <h2 className="text-black   px-4">Email: support@sevensinscocktails.com</h2>
       <h2 className="text-black top-48 px-4">Phone: +1(402) 480-3134</h2>
+
       </div>
       </div>
       
