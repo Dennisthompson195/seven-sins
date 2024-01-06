@@ -1,5 +1,5 @@
+import Messages from 'models/message'
 import dbConnect from '../../../lib/dbConnect'
-import Messages from '@/models/message'
 
 export default async function handler(req, res) {
   const {
