@@ -1,29 +1,15 @@
+import NewMessage from "components/newMessage"
 
-export const runtime = 'edge';
-
-export const metadata = {
-  title: 'Contact',
-  description: 'Search for products in the store.'
-};
-
-
-export default async function HomePage() {
-  return (
-    <div className="h-screen mt-12">
-
-      <section className="relative top-40 mx-auto text-center">
-          <h1 className="md:text-base max-md:text-sm uppercase mb-24 w-screen px-8">This page is currently under construction to feature a secure direct messaging platform. <br /> in the meantime, we have decided to display our contact information directly to the public.<br /> We thank you for your patience and understanding as we grow into our new business! &#128513;</h1>
-        </section>
-    <div className="h-fit flex flex-row w-screen px-12 text-black relative top-40 align-middle">
-      <div className="  mx-auto align-middle place-items-center justify-center ">
-        
-      <h1 className="text-black ">Contact Us</h1>
-      <h2 className="text-black   px-4">Email: support@sevensinscocktails.com</h2>
-      <h2 className="text-black top-48 px-4">Phone: +1(402) 480-3134</h2>
-
-      </div>
-      </div>
-      
-  </div>
-  );
+ const Contact = () => {
+    return (
+      <div>
+        <h1 className="text-black text-3xl mt-20 text-center w-screen font-bold">Contact Us</h1>
+        <div className="h-full mt-6 w-screen mx-auto">
+          <NewMessage />
+        </div>
+        <p className="text-sm text-red-700 text-center">*please do not send sensitive information*</p>
+      </div>  
+    )
 }
+
+export default Contact

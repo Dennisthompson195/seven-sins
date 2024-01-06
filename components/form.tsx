@@ -67,7 +67,7 @@ const Form = ({ formId, MessageForm, forNewPet = true }: {formId: any, MessageFo
         throw new Error(res.status)
       }
 
-      router.push('/contac/confirmation')
+      router.push('/contact/confirmation')
     } catch (error) {
       setMessage('Failed to add pet')
     }
@@ -153,7 +153,7 @@ const Form = ({ formId, MessageForm, forNewPet = true }: {formId: any, MessageFo
       
 <label htmlFor="email">Email{emailError && (
           <p role="alert" className='inputError text-red-600 text-base'>
-          <span>*</span>Please enter a valid email
+          <span>*</span>Please enter a valid email <address></address>
           </p>
         )}</label>
         
@@ -166,8 +166,8 @@ const Form = ({ formId, MessageForm, forNewPet = true }: {formId: any, MessageFo
           required
           placeholder='Email Address'
           className='w-full bg-indigo-100 text-black text 2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none dark:text-white dark:bg-slate-800 '
-          /*onKeyUp={emailCheckHandler}  
-onBlur={emailCheckHandler}   */   
+          
+          onBlur={emailCheckHandler}     
         />
         
         <label htmlFor="message">Message</label>
@@ -177,7 +177,7 @@ onBlur={emailCheckHandler}   */
           value={form.message}
           onChange={handleChange}
           cols={30}
-          rows={10}
+          rows={5}
           placeholder='Your message' 
           required 
           className='w-full bg-indigo-100 text-black text 2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-slate-400 dark:text-white dark:bg-slate-800'
@@ -185,7 +185,7 @@ onBlur={emailCheckHandler}   */
         />
 
 
-        <button type="submit" className=' bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-600 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-slate-400'>
+        <button type="submit" className=' bg-indigo-700 hover:bg-indigo-800 active:bg-indigo-600 text-white p-3 w-48 mt-2 rounded-xl border border-solid border-slate-900 dark:border-slate-400'>
           Submit
         </button>
       </form>

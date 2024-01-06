@@ -33,7 +33,7 @@ export default async function HomePage() {
           </div>
       </div>
       </div>
-      <div className='relative block md:hidden top-0 max-sm:-left-1 '>
+      <div className='relative block md:hidden top-0 max-sm:-left-1 max-sm:top-12 '>
               <ProductlineTwo />
           </div>
     </div>

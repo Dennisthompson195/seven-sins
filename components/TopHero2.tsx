@@ -28,7 +28,7 @@ const TopHeroTwo = () => {
     </div>
     
          {/*MOBILE VIEW HERO SECTION*/}
-    <div className="max-lg:block hidden w-screen h-screen absolute  -top-6 lg:mt-20 mt-0 xs:max-md:-mb-6 tab:max-air:mb-5 ">
+    <div className="max-lg:block hidden w-screen h-screen absolute  -top-6 lg:mt-20 mt-0 md:-mb-6  ">
       <div>
   <div className=' h-screen  opacity-90 w-screen  '>
     <Image 
