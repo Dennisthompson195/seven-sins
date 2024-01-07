@@ -11,7 +11,7 @@ export const metadata = {
   description: 'Artisan Cocktail Supply.',
   openGraph: {
     type: 'website',
-    images: 'https://www.sevensinscocktails.com/opengraph-image.png?7b8234c493421156', 
+    images: 'https://sevensinscocktails.com/opengraph-image.png?7b8234c493421156', 
   }
 };
 
