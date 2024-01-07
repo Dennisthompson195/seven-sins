@@ -8,9 +8,11 @@ const TopHeroTwo = () => {
     <div className="h-screen relative">
     <div className="lg:h-screen relative h-96 lg:mt-20 mt-20 xs:max-md:-mb-6 tab:max-air:mb-5 ">
       <div>
-  <div className='max-lg:hidden block opacity-90 lg:h-screen h-96   '>
+  <div className='max-lg:hidden block opacity-95
+   lg:h-screen h-96   '>
     <Image 
-      src='/garnishHero16.png'
+      src='/topHeroFinalG13.png'
+      
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
       alt='jdd'
@@ -32,7 +34,7 @@ const TopHeroTwo = () => {
       <div>
   <div className=' h-screen  opacity-90 w-screen  '>
     <Image 
-      src='/garnishHero21.png'
+      src='/topHeroFinalLG14.png'
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
       alt='jdd'

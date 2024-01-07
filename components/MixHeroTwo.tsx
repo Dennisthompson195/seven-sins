@@ -8,11 +8,10 @@ const MixHeroTwo = () => {
       <div className="relative top-1 lg:-top-0">
   <div className='max-sm:hidden relative -top-14 lg:-top-20  block opacity-90 lg:h-screen h-screen   '>
     <Image 
-      src='/mixTeaser2.png'
-      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      src='/mixHeroLG14.png'
       fill
       alt='jdd'
-      className='opacity-95   xs:max-md:object-fill sm:max-md:object-fill object-cover xs:max-md:mt-6 pt-1 lg:-mt-1 md:max-lg:mt-6   px-0 py-0'
+      className='opacity-95    max-md:object-fill object-cover xs:max-md:mt-6 pt-1 lg:-mt-1 md:max-lg:mt-6   px-0 py-0'
      
       
   />
@@ -31,7 +30,7 @@ const MixHeroTwo = () => {
       <div>
   <div className='   opacity-90 w-screen  '>
     <Image 
-      src='/mixTeaser4.png'
+      src='/mixHeroLG15.png'
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
       alt='jdd'
