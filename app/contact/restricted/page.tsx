@@ -1,1 +1,0 @@
-<h1>this resource is restricted to those with aministrative privlages</h1>
