@@ -11,7 +11,7 @@ const TopHeroTwo = () => {
   <div className='max-lg:hidden block opacity-95
    h-screen   '>
     <Image 
-      src='/topHeroFinalG13.png'
+      src='/topHeroFinalG13-1.png'
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
       alt='jdd'
@@ -33,7 +33,7 @@ const TopHeroTwo = () => {
       <div>
   <div className=' h-screen  opacity-90 w-screen  '>
     <Image 
-      src='/topHeroFinalLG14.png'
+      src='/topHeroFinalLG14-1.png'
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
       alt='jdd'
