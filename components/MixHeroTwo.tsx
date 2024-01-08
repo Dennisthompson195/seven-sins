@@ -31,10 +31,10 @@ const MixHeroTwo = () => {
   <div className='   opacity-90 w-screen  '>
     <Image 
       src='/mixHeroLG15.png'
-      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      object-fit='fill'
       fill
       alt='jdd'
-      className='opacity-95   object-fill   px-0 py-0'
+      className='opacity-95  px-0 py-0'
      
       
   />

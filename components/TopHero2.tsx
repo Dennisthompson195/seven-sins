@@ -12,11 +12,11 @@ const TopHeroTwo = () => {
    lg:h-screen h-96   '>
     <Image 
       src='/topHeroFinalG13.png'
-      
+      objectFit="cover"
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
       alt='jdd'
-      className='opacity-95  xs:max-md:object-cover sm:max-md:object-cover object-cover   px-0 py-0'
+      className='opacity-95  px-0 py-0'
      
       
   />
@@ -37,8 +37,9 @@ const TopHeroTwo = () => {
       src='/topHeroFinalLG14.png'
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
+      objectFit="cover"
       alt='jdd'
-      className='opacity-95 h-screen   object-cover   px-0 py-0'
+      className='opacity-95 h-screen    px-0 py-0'
      
       
   />
