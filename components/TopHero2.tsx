@@ -6,17 +6,16 @@ const TopHeroTwo = () => {
   return (
     <>
     <div className="h-screen relative">
-    <div className="lg:h-screen relative h-96 lg:mt-20 mt-20 max-md:-mb-6  ">
+    <div className="h-screen relative lg:mt-20 mt-20 max-md:-mb-6  ">
       <div>
   <div className='max-lg:hidden block opacity-95
-   lg:h-screen h-96   '>
+   h-screen   '>
     <Image 
       src='/topHeroFinalG13.png'
-      objectFit="cover"
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
       alt='jdd'
-      className='opacity-95  px-0 py-0'
+      className='opacity-95 object-cover  px-0 py-0'
      
       
   />
@@ -37,9 +36,8 @@ const TopHeroTwo = () => {
       src='/topHeroFinalLG14.png'
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       fill
-      objectFit="cover"
       alt='jdd'
-      className='opacity-95 h-screen    px-0 py-0'
+      className='opacity-95 h-screen object-cover    px-0 py-0'
      
       
   />

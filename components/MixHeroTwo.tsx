@@ -6,7 +6,7 @@ const MixHeroTwo = () => {
   return (
 <div className="h-screen  lg:mt-20 relative ">
       <div className="relative top-1 lg:-top-0">
-  <div className='max-sm:hidden relative -top-14 lg:-top-20  block opacity-90 lg:h-screen h-screen   '>
+  <div className='max-sm:hidden relative -top-14 lg:-top-20  block opacity-90 h-screen   '>
     <Image 
       src='/mixHeroLG14.png'
       fill
