@@ -17,6 +17,7 @@ export const metadata = {
 
 export default async function HomePage() {
   return (
+    <>
     <div className='relative -top-4'>
     <div className='  w-screen  h-full mx-auto relative  '>
     <div className=' w-screen max-md:-mt-12   '>
@@ -37,5 +38,6 @@ export default async function HomePage() {
               <ProductlineTwo />
           </div>
     </div>
+    </>
   );
 }
