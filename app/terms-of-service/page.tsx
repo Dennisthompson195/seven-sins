@@ -11,7 +11,7 @@ export default async function HomePage() {
   return (
     <div className="mx-auto w-screen items-center justify-center align-middle mb-28">
     <h1 className='text-center max-sm:text-xl text-3xl  z-40 mt-28' >Terms Of Service</h1>  
-    <p className="px-12 mx-auto lg:w-1/2 mt-8 font-normal"></p> 
+    <p className="px-12 mx-auto lgh:w-1/2 mt-8 font-normal"></p> 
     <ul className="max-sm:text-sm">
         <li>
         <p className=" px-12 mx-auto lg:w-1/2 mb-6">1: Clients shall not place orders for items that cannot be sold within their jurisdiction, as listed within the product description of the specified item and also specified on the shipping policy section of this website. </p>

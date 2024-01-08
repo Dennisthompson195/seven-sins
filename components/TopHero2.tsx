@@ -6,7 +6,7 @@ const TopHeroTwo = () => {
   return (
     <>
     <div className="h-screen relative">
-    <div className="lg:h-screen relative h-96 lg:mt-20 mt-20 xs:max-md:-mb-6 tab:max-air:mb-5 ">
+    <div className="lg:h-screen relative h-96 lg:mt-20 mt-20 max-md:-mb-6  ">
       <div>
   <div className='max-lg:hidden block opacity-95
    lg:h-screen h-96   '>

@@ -11,7 +11,7 @@ export const metadata = {
 
 export default async function HomePage() {
   return (
-    <div className="mx-auto w-screen h-screen items-center justify-center align-middle">
+    <div className="mx-auto w-screen h-full items-center justify-center align-middle max-sm:mb-20">
     <h1 className=' px-12 text-3xl  z-40 mt-32 max-sm:mt-24 max-sm:text-xl max-sm:text-center' >Shipping Policy</h1>  
     <div className="grid grid-flow-col grid-cols-2 max-sm:grid-flow-row max-sm:grid-rows-1 max-sm:mb-6">
     <p className="px-12 mx-auto max-sm:text-sm lg:w-full max-sm:w-screen mt-4 row-start-1 row-end-1 font-normal">Some or all of the food items on this website were manufactured under LB 304 of the Nebraska Pure food act. 
