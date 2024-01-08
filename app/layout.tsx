@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import Footer from 'components/layout/footer';
 import LogoheaderTwo from 'components/logoheaderTwo';
 import { GeistSans } from 'geist/font';
@@ -44,7 +45,10 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
       </div>
       
       <Suspense>
-        <main>{children}</main>
+        <main>
+          {children}
+          <Analytics />
+        </main>
       </Suspense>
       <div className='w-screen h-fit relative bottom-0'>
         <Footer />

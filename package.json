@@ -25,6 +25,7 @@
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@prisma/client": "5.7.1",
+    "@vercel/analytics": "^1.1.1",
     "clsx": "^2.0.0",
     "geist": "^1.0.0",
     "mongodb": "^6.3.0",
