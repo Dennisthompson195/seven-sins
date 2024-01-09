@@ -67,7 +67,7 @@ const Productline = () => {
            
            <div className='block relative lg:h-56 lg:w-56 mx-auto mt-0 xs:-mt-8 xs:w-40 xs:h-40 xl:border xl:border-solid xl:border-neutral-200 xl:hover:border-neutral-300 xs:max-xl:border-none
                place-content-center justify-center text-center'><Link href="/product/blood-orange-cocktail-syrup"><Image
-             src='/Blood-Orange-Syrup.png'
+             src='/BOS-3.png'
              width={200}
              height={200}
              alt='logo'
@@ -76,7 +76,7 @@ const Productline = () => {
 
 <div className='block relative lg:h-56 lg:w-56 mx-auto mt-0 xs:-mt-8 xs:w-40 xs:h-40 xl:border xl:border-solid xl:border-neutral-200 xl:hover:border-neutral-300 xs:max-xl:border-none
                place-content-center justify-center text-center'><Link href="/product/cara-cara-brulee"><Image
-             src='/CC-Brulee2.png'
+             src='/CC-Brulee3.png'
              width={200}
              height={200}
              alt='logo'
