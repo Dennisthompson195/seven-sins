@@ -71,7 +71,7 @@ const ProductlineTwo = () => {
              width={200}
              height={200}
              alt='logo'
-             className=' block mt-4 relative -mb-6 mx-auto items-center justify-center'
+             className=' block mt-3 relative -mb-6 mx-auto items-center justify-center'
            /></Link><h2 className=" relative  items-center mx-auto justify-center  text-center ">Blood Orange Syrup</h2></div>
             
             <div className='block relative lg:h-56 lg:w-56 mx-auto mt-0 xs:-mt-8 xs:w-40 xs:h-40 xl:border xl:border-solid xl:border-neutral-200 xl:hover:border-neutral-300 xs:max-xl:border-none
