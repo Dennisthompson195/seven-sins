@@ -66,7 +66,7 @@ const ProductlineTwo = () => {
            /></Link><h2 className=" relative  items-center mx-auto justify-center  text-center ">Pineapple</h2></div>
            
            <div className='block relative lg:h-56 lg:w-56 mx-auto mt-0 xs:-mt-8 xs:w-40 xs:h-40 xl:border xl:border-solid xl:border-neutral-200 xl:hover:border-neutral-300 xs:max-xl:border-none
-               place-content-center justify-center text-center'><Link href="/product/blood-orange-cocktail-syrup"><Image
+               place-content-center justify-center text-center'><Link href="/product/blood-orange-cocktail-Syrup"><Image
              src='/Blood-Orange-syrup.png'
              width={200}
              height={200}
@@ -82,7 +82,7 @@ const ProductlineTwo = () => {
              alt='logo'
              className=' block mt-2 relative -mb-6 mx-auto items-center justify-center'
            /></Link><h2 className=" relative  items-center mx-auto justify-center  text-center ">Cara Cara- Brulee</h2></div>
-           
+
             </section>
     </div>
   )
