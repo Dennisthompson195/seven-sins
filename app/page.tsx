@@ -8,15 +8,17 @@ export const runtime = 'edge';
 
 
 export const metadata = {
-  description: 'Artisan Cocktail Supply.',
+  description: 'Artisan Cocktail Supplies.',
   openGraph: {
     type: 'website',
     images: 'https://sevensinscocktails.com/opengraph-image.png?7b8234c493421156', 
   }
+  
 };
 
 export default async function HomePage() {
   return (
+    
     <>
     <div className='relative -top-4'>
     <div className='  w-screen  h-full mx-auto relative  '>
