@@ -38,7 +38,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
     <html lang="en" className={GeistSans.variable}>
       <body className="bg-white pt-4 mx-auto relative w-full max-w-full h-full min-h-max text-black   dark:text-black  "> {/* selection:bg-teal-300  dark:text-black dark:selection:bg-pink-500 dark:selection:text-white */}
       {/*hidden*/}
-      
+     
       <div className=' top-0 z-20 ml fixed mx-auto items-center md:inline-flex my-4 md:ml-10 mt-4 mb-10 rounded-sm w-fit'> {/*justify-center */}
        
         <LogoheaderTwo />

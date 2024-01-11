@@ -63,7 +63,8 @@ export async function shopifyFetch<T>({
   headers,
   query,
   tags,
-  variables
+  variables,
+  
 }: {
   cache?: RequestCache;
   headers?: HeadersInit;
