@@ -12,7 +12,7 @@ export default async function HomePage() {
     <div className="h-full w-screen font-serif mb-20">
    
     <h1 className=' mb-10 max-sm:mb-6 mt-28 text-2xl font-bold text-center' >About</h1>  
-    <section className="w-2/3 mx-auto max-sm:w-5/6  p-6"> {/*border border-black shadow-md rounded-xl */}
+    <section className="w-2/3 mx-auto max-sm:w-5/6"> {/*border border-black shadow-md rounded-xl */}
     <p className=" text-lg">Inspired by my time living and working at some of finest dining establishments in Las Vegas, Nevada. Seven Sins Cocktail Co. is a labor of love and a child of my passion for mixology and culinary arts.
    Focused on simple formulas and using only all- natural ingredients, my vision is to never use any artficial flavors, colors, or preservatives in my products. The goal of this brand is to make bartending more accessible and approachable to home- bartenders and also to help bars and restaurants provide a better quality of service, while at the same time reducing food waste and labor costs by providing them with better solutions for garnishing their food and drinks.</p>
     </section>
