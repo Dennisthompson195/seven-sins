@@ -8,6 +8,7 @@ import Navbar2 from "./layout/navbar/nav2"
 
 const LogoheaderTwo = () => {
   return (
+    <Suspense>
     <div className="w-screen -top-6 relative h-20  z-30 pt-9 lg:px-6 md:-ml-10 mt-2 mb-0 bg-white">
           <div className='mr-1 w-screen h-10 max-lg:mx-auto  '>
           
@@ -54,6 +55,7 @@ const LogoheaderTwo = () => {
           </div>
 
         </div>  
+        </Suspense>
 
   )
 }

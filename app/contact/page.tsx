@@ -1,8 +1,5 @@
 import NewMessage from "components/newMessage";
 
-export const runtime = 'edge';
-
-
  const Contact = () => {
     return (
       <div>
