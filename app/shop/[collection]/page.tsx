@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import Grid from 'components/grid';
 import ProductGridItems from 'components/layout/product-grid-items';
 import { defaultSort, sorting } from 'lib/constants';
+import { Suspense } from 'react';
 
 export const runtime = 'edge';
 
@@ -36,6 +37,7 @@ export default async function CategoryPage({
   const products = await getCollectionProducts({ collection: params.collection, sortKey, reverse });
 
   return (
+    <Suspense>
     <section>
       {products.length === 0 ? (
         <p className="py-3 text-center lg:text-xl font-medium">{`No products found in this collection`}</p>
@@ -45,5 +47,6 @@ export default async function CategoryPage({
         </Grid>
       )}
     </section>
+    </Suspense>
   );
 }
