@@ -115,6 +115,12 @@ export default function MobileMenu({ menu }: { menu: Menu[] }) {
                 <h1 className='pl-6 py-4 hover:text-blue-800'>Shop</h1>
                 </Link>
                 <hr className=' bg-black text-black border-black opacity-90 min-w-fit ml-4 mr-2 font-extrabold'/>
+                {/*<Link
+                  href='/blog'
+                >
+                <h1 className='pl-6 py-4 hover:text-blue-800'>Blog</h1>
+                </Link>
+                    <hr className=' bg-black text-black border-black opacity-90 min-w-fit ml-4 mr-2 font-extrabold'/>*/}
 
                 {/*<Link
                   href='/gallery'

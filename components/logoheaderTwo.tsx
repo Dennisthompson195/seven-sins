@@ -12,7 +12,7 @@ const LogoheaderTwo = () => {
     <div className="w-screen -top-6 relative h-20  z-30 pt-9 lg:px-6 md:-ml-10 mt-2 mb-0 bg-white">
           <div className='mr-1 w-screen h-10 max-lg:mx-auto  '>
           
-          <Link href='/'> <Image
+          <Link href='/' className="lg:absolute"> <Image
               src='/sscc2.png'
               width={200}
               height={200}
@@ -22,7 +22,7 @@ const LogoheaderTwo = () => {
             </Link>
 
             </div>
-            <div className="z-20  hidden lg:block align-middle -mt-20 pb-0 justify-center place-content-center w-screen text-center  mx-auto">
+            <div className="z-20  hidden  lg:-mt-16 lg:block align-middle -mt-20 pb-0 justify-center place-content-center w-screen text-center  mx-auto">
       <Navbar />
       </div>
 

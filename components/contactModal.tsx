@@ -1,18 +1,16 @@
 'use client';
 
 import { Dialog, Transition } from '@headlessui/react';
-import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { Fragment, useEffect, useState } from 'react';
 
 import { XMarkIcon } from '@heroicons/react/24/outline';
-import { Menu } from 'lib/shopify/types';
 
 
-export default function ContactModal({ menu }: { menu: Menu[] }) {
+export default function ContactModal({children}) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const openMobileMenu = () => setIsOpen(true);
   const closeMobileMenu = () => setIsOpen(false);
 
@@ -27,7 +25,7 @@ export default function ContactModal({ menu }: { menu: Menu[] }) {
   }, [isOpen]);
 
   useEffect(() => {
-    setIsOpen(false);
+    setIsOpen(true);
   }, [pathname, searchParams]);
 
   return (
@@ -73,23 +71,7 @@ export default function ContactModal({ menu }: { menu: Menu[] }) {
                 </button>
 
                 
-                {menu.length ? (
-                  <ul className="flex w-full flex-col">
-                    {menu.map((item: Menu) => (
-                      <li
-                        className="py-2 text-xl text-black transition-colors hover:text-neutral-500 dark:text-white"
-                        key={item.title}
-                      >
-                        <Link href={item.path} onClick={closeMobileMenu}>
-                          {item.title}
-                        </Link>
-                        <Link
-                          href='/home'
-                        ></Link>
-                      </li>
-                    ))}
-                  </ul>
-                ) : null}
+              
                 
               </div>
             </Dialog.Panel>
