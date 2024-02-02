@@ -40,6 +40,7 @@ export function GridTileImageTwo({
       ) : null}
       
     </div>
+    <div className='relative -top-4 pb-6'>
     {label ? (
         <Label
           title={label.title}
@@ -48,6 +49,7 @@ export function GridTileImageTwo({
           position={label.position}
         />
       ) : null}
+      </div>
     </>
   );
 }
