@@ -9,7 +9,7 @@ const Productline = () => {
           <section className=' h-full  p-6 max-sm:-mt-4 font-semibold 
            grid max-w-screen gap-x-0 gap-y-8  mx-auto items-center text-center justify-center mt-6 mb-12 md:grid-cols-2 max-sm:grid-rows-2 md:grid-rows-1 :grid-cols-2 xs:max-md:grid-cols-2  lg:w-1/2'>
           <div className='block relative lg:h-[300px] lg:w-[200px] xs:w-40 xs:h-40  xl:hover:border-neutral-300 xs:max-xl:border-none 
-               place-content-center justify-center mx-auto text-center'><Link href="/product/cara-cara-orange"><Image
+               place-content-center justify-center mx-auto text-center'><Link href="/shop/chips"><Image
              src='/Pina-p.png'
              width={200}
              height={200}
@@ -19,7 +19,7 @@ const Productline = () => {
 
              <div className='block relative lg:h-[300px] lg:w-[200px] xs:w-40 xs:h-40 mx-auto  xl:hover:border-neutral-300 xs:max-xl:border-none 
               place-content-center justify-center text-center'><Link
-             href='/product/orange-chips'> <Image
+             href='/shop/syrups'> <Image
              src='/BOS.png'
              width={200}
              height={200}
