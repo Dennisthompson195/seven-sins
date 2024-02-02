@@ -1,11 +1,11 @@
 'use server';
 
 import { auth, youtube } from '@googleapis/youtube';
-import { sql } from '@vercel/postgres';
 import {
-    unstable_cache as cache,
-    unstable_noStore as noStore,
+  unstable_cache as cache,
+  unstable_noStore as noStore,
 } from 'next/cache';
+import { sql } from './postgres';
 
 let googleAuth = new auth.GoogleAuth({
   credentials: {

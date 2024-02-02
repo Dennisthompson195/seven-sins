@@ -34,16 +34,16 @@ export default function BlogPage() {
             href={`/blog/${post.slug}`}
           ><p className="text-neutral-900 mt-28 ">
           <Image src={post.metadata.coverImage} width={350} alt='cover photo'
-          height={350} />
+          height={350} objectFit='fill' className='rounded-2xl' />
         </p>
             <div className="w-full   max-lg:mx-2 ">
             
-              <p className="text-neutral-900 mt-8  ">
+              <p className="text-neutral-900 mt-4 lg:-ml-20 mx-auto justify-center items-center flex  ">
                 {post.metadata.title}
               </p>
-              <p className="text-neutral-900 ">
+              {/*<p className="text-neutral-900 lg:-ml-20 mx-auto justify-center items-center flex   ">
                 {post.metadata.publishedAt}
-              </p>
+              </p>*/}
               {/*<Suspense fallback={<p className="h-6" />}>
                 <Views slug={post.slug} />
               </Suspense>*/}

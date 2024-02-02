@@ -17,7 +17,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const page = await getPage(params.page);
   
- 
+ if (!page) return notFound()
 
   return {
     title: page.seo?.title || page.title,

@@ -1,9 +1,9 @@
 'use server';
 
-import { sql } from '@vercel/postgres';
-
+import { auth } from 'app/auth';
 import { type Session } from 'next-auth';
 import { unstable_noStore as noStore, revalidatePath } from 'next/cache';
+import { sql } from './postgres';
 
 export async function increment(slug: string) {
   noStore();

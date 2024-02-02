@@ -9,7 +9,7 @@ export default function SearchLayout({ children }: { children: React.ReactNode }
     <Suspense>
       
       <div className=" relative overflow-hidden mt-16  grid   w-full  h-full grid-flow-row gap-8 px-4 pb-4 text-black dark:text-white md:flex-row">
-        <div className='md:w-1/3 max-sm:w-1/2 mx-auto max-sm:-left-4 relative -mt-12 mb-12 focus:outline-none'>
+        <div className='md:w-1/3 max-sm:w-1/2 mx-auto max-sm:-left-4 relative -mt-12 mb-0 focus:outline-none'>
 <Suspense>
 <Search />
 </Suspense>

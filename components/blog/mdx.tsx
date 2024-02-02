@@ -1,3 +1,4 @@
+import GuestbookPage from '@/app/guest/page';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -166,6 +167,7 @@ let components = {
   Table,
   LiveCode,
   NewMessage,
+  GuestbookPage
 };
 
 export function CustomMDX(props) {

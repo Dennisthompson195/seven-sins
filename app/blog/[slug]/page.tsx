@@ -4,7 +4,6 @@ import type { Metadata } from 'next';
 import { unstable_noStore as noStore } from 'next/cache';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
-
 export async function generateMetadata({
   params,
 }): Promise<Metadata | undefined> {
@@ -90,6 +89,7 @@ export default function Blog({ params }) {
   return (
     <section className='max-lg:ml-2 max-lg:pr-8 lg:ml-8 mt-20 relative lg:left-[25vw]  w-screen overflow-x-hidden'>
       <script
+      
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{
@@ -111,6 +111,7 @@ export default function Blog({ params }) {
           }),
         }}
       />
+      
       
       <h1 className="title font-bold text-3xl max-lg:ml-2 tracking-tighter max-w-[650px]">
         {post.metadata.title}

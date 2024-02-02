@@ -30,7 +30,6 @@ export function ProductDescription({ product }: { product: Product }) {
           html={product.descriptionHtml}
         />
       ) : null}
-
       
     </>
   );

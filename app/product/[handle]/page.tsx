@@ -98,6 +98,7 @@ export default async function ProductPage({ params }: { params: { handle: string
         <Suspense>
           <RelatedProducts id={product.id} />
         </Suspense>
+        <h1>We're currently collecting reviews for this product</h1>
       </div>
       <Suspense>
 

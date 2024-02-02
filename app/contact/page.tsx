@@ -7,7 +7,6 @@ import NewMessage from "components/newMessage";
         <div className="h-full mt-6 w-screen mx-auto">
           <NewMessage />
         </div>
-        <p className="text-sm text-red-700 text-center">*please do not send sensitive information*</p>
       </div>  
     )
 }

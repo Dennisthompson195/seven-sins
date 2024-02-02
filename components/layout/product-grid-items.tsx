@@ -8,7 +8,7 @@ export default function ProductGridItems({ products }: { products: Product[] }) 
     <>
       {products.map((product) => (
 
-        <Grid.Item key={product.handle} className="animate-fadeIn h-full w-full xs:w-3/4 mx-auto">
+        <Grid.Item key={product.handle} className="animate-fadeIn h-[300px] w-full xs:w-3/4 mx-auto">
         
           <Link className="relative xs:max-md:-left-6 -left-4 mx-auto items-center justify-center flex h-full w-full " href={`/product/${product.handle}`}> {/*inline-block*/}
             <GridTileImageTwo
@@ -19,8 +19,10 @@ export default function ProductGridItems({ products }: { products: Product[] }) 
                 currencyCode: product.priceRange.minVariantPrice.currencyCode
               }}
               src={product.featuredImage?.url}
-              fill
-              sizes="(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+              //fill
+              //sizes="(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+              width={200}
+              height={300}
             />
           </Link>
 

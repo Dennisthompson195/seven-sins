@@ -57,6 +57,8 @@ export const metadata = {
 export default async function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={GeistSans.variable}>
+      
+      
       <body className="bg-white pt-4 mx-auto relative w-screen overflow-x-hidden h-full min-h-max text-black   dark:text-black  "> {/* selection:bg-teal-300  dark:text-black dark:selection:bg-pink-500 dark:selection:text-white */}
       {/*hidden*/}
      
