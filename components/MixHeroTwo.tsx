@@ -16,7 +16,7 @@ const MixHeroTwo = () => {
       
   />
   <Link href='/shop'>
- <button className="max-sm:hidden block absolute bottom-20 left-1/2 -translate-x-1/2 mx-auto  border-solid border-neutral-200 border hover:border-white hover:bg-white hover:border-2 shadow-sm bg-neutral-100 bg-opacity-95 text-black font-normal text-sm rounded-md p-3 mt-3 w-2/5 lg:w-1/4">EXPLORE OUR COLLECTION</button>
+ <button className="max-sm:hidden block absolute bottom-20 left-1/2 -translate-x-1/2 mx-auto  border-solid border-neutral-200 border hover:border-white hover:bg-white hover:border-2 shadow-sm bg-neutral-100 bg-opacity-95 text-black font-medium text-sm rounded-md p-3 mt-3 w-2/5 lg:w-1/4">EXPLORE OUR COLLECTION</button>
  </Link>
   </div>
   <div className="lg:block  hidden">
