@@ -9,10 +9,6 @@ export const runtime = 'edge';
 
 export const metadata = {
   description: 'Artisan Cocktail Supplies.',
-  openGraph: {
-    type: 'website',
-    images: 'https://sevensinscocktails.com/opengraph-image.png?7b8234c493421156', 
-  }
   
 };
 
