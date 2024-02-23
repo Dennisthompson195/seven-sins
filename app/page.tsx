@@ -24,7 +24,7 @@ export default async function HomePage() {
     <div className='  w-screen  h-full mx-auto relative  '>
     <div className=' w-screen max-md:-mt-12   '>
     <section className='bg-none max-md:-top-6'>
-      <h1 className='opacity-0 absolute h-fit -top-20'>Artisan cocktail supply company located in Lincoln, Nebraska.</h1>
+      <h1 className='opacity-0 absolute h-fit -top-20'>Artisan cocktail supply company located in Lincoln, Nebraska</h1>
       <TopHeroTwo />
     </section>
 
