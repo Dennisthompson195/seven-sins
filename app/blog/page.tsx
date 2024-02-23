@@ -38,7 +38,7 @@ export default function BlogPage() {
         </p>
             <div className="w-full   max-lg:mx-2 ">
             
-              <p className="text-neutral-900 mt-4 lg:-ml-20 mx-auto justify-center items-center flex  ">
+              <p className="text-neutral-900 max-md:text-sm mt-4 lg:-ml-20 mx-auto justify-center items-center flex  ">
                 {post.metadata.title}
               </p>
               {/*<p className="text-neutral-900 lg:-ml-20 mx-auto justify-center items-center flex   ">
