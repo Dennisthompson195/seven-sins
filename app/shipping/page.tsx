@@ -18,7 +18,7 @@ export default async function HomePage() {
      <ul className="w-1/2 mx-auto  justify-center items-center font-light">
       <li>Al</li> 
       <li>California</li>
-      <li>Connecticut</li>
+      <li>Connectdddicut</li>
       <li>Delaare</li>
       <li>Hawaii</li>
       <li>Michigan</li>
