@@ -16,10 +16,10 @@ export default async function HomePage() {
        <div className="max-sm:row-start-2 max-sm:w-screen">
            <h1 className="mx-auto w-1/2 pb-1 mt-6">Restricted States:</h1>
      <ul className="w-1/2 mx-auto  justify-center items-center font-light">
-      <li>Alaska</li> 
+      <li>Al</li> 
       <li>California</li>
       <li>Connecticut</li>
-      <li>Delaware</li>
+      <li>Delaare</li>
       <li>Hawaii</li>
       <li>Michigan</li>
       <li>Minnesota</li>
