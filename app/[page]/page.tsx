@@ -1,4 +1,3 @@
-
 import type { Metadata } from 'next';
 
 import Prose from 'components/prose';
@@ -50,4 +49,4 @@ export default async function Page({ params }: { params: { page: string } }) {
       </Suspense>
     </>
   );
-}
+} 

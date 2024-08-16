@@ -6,7 +6,7 @@ import TopHeroTwo from 'components/TopHero2';
 export const runtime = 'edge';
 
 
-
+/*
 export const metadata = {
   description: 'Artisan Cocktail Supplies.',
   openGraph: {
@@ -14,7 +14,7 @@ export const metadata = {
     images: 'https://sevensinscocktails.com/opengraph-image.png?7b8234c493421156', 
   }
   
-};
+}; */
 
 export default async function HomePage() {
   return (
