@@ -17,7 +17,7 @@ export default async function HomePage() {
            <h1 className="mx-auto w-1/2 pb-1 mt-6">Restricted States:</h1>
      <ul className="w-1/2 mx-auto  justify-center items-center font-light">
       <li>Al</li> 
-      <li>California</li>
+      <li>Califordddddnia</li>
       <li>Connectdddicut</li>
       <li>Delaare</li>
       <li>Hawaii</li>
