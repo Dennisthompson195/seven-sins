@@ -13,7 +13,7 @@ export default async function HomePage() {
     
     <ul className="max-sm:text-sm"> 
         <li>
-            <h1 className=" px-12 mx-auto lg:w-1/2 mb-1">Q:What is the shelf-life of your products?</h1>
+            <h1 className=" px-12 mx-auto lg:w-1/2 mb-1">:What is the shelf-life of your products?</h1>
             <h2 className="mt-0  px-12 mx-auto lg:w-1/2 mb-2">A:The shelf-life of our products can vary but as general rule of thumb:</h2>
             <p className=" px-16 mx-auto lg:w-1/2 mb-0">Syrups: up to 2 years, once opened consume within 6 months.</p>
             <p className=" px-16 mx-auto lg:w-1/2 mb-0">Mixers: one year, once opened consume within 4-6 months.</p>
