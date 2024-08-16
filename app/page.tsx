@@ -26,7 +26,7 @@ export default async function HomePage() {
     <section className='bg-none max-md:-top-6'>
       <h1 className='opacity-0 absolute h-fit -top-20'>Artisan cocktail supply company located in Lincoln, Nebraska.</h1>
       <TopHeroTwo />
-    </section>
+    </section><h1>FUCKKKKKKKK</h1>
 
     <section className='bg-none  '>
       <MixHeroTwo />
