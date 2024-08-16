@@ -1,4 +1,4 @@
-import { getBlogPosts } from 'app/db/blog';
+/*import { getBlogPosts } from 'app/db/blog';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -44,10 +44,10 @@ export default function BlogPage() {
               
               {/*<p className="text-neutral-900 lg:-ml-20 mx-auto justify-center items-center flex   ">
                 {post.metadata.publishedAt}
-              </p>*/}
+              </p>*/ /*}
               {/*<Suspense fallback={<p className="h-6" />}>
                 <Views slug={post.slug} />
-              </Suspense>*/}
+              </Suspense>*//*}
             </div>
           </Link>
           
@@ -61,4 +61,4 @@ export default function BlogPage() {
   let views = await getViewsCount();
 
   return <ViewCounter allViews={views} slug={slug} />;
-}*/}
+}*//*}*/

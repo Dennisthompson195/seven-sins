@@ -1,4 +1,4 @@
-import { CustomMDX } from '@/components/blog/mdx';
+/*import { CustomMDX } from '@/components/blog/mdx';
 import { getBlogPosts } from 'app/db/blog';
 import type { Metadata } from 'next';
 import { unstable_noStore as noStore } from 'next/cache';
@@ -45,7 +45,7 @@ export async function generateMetadata({
     },
   };
 }
-
+/*
 function formatDate(date: string) {
   noStore();
   let currentDate = new Date();
@@ -76,7 +76,7 @@ function formatDate(date: string) {
     year: 'numeric',
   });
 
-  return `${fullDate}`; {/* (${formattedDate})*/}
+  return `${fullDate}`; {/* (${formattedDate})*//*}
 }
 
 export default function Blog({ params }) {
@@ -128,20 +128,20 @@ export default function Blog({ params }) {
         
         {/*<Suspense fallback={<p className="h-5" />}>
           <Views slug={post.slug} />
-        </Suspense>*/}
+        </Suspense>*//*}
       </div>
       {/*<p className='text-sm text-neutral-600 dark:text-neutral-400'>Written by <span>{post.metadata.author}</span></p>*/}
-      <article className="prose prose-quoteless prose-neutral prose-a:text-blue-500 prose-a:no-underline  prose-a:leading-none dark:prose-neutral">
+      /*<article className="prose prose-quoteless prose-neutral prose-a:text-blue-500 prose-a:no-underline  prose-a:leading-none dark:prose-neutral">
         <CustomMDX source={post.content} />
       </article>
     </section>
   );
 }
 
-{/*let incrementViews = cache(increment);*/}
+{/*let incrementViews = cache(increment);*//*}
 
 {/*async function Views({ slug }: { slug: string }) {
   let views = await getViewsCount();
   incrementViews(slug);
   return <ViewCounter allViews={views} slug={slug} />;
-}*/}
+}*//*}*/
