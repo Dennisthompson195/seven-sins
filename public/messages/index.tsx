@@ -1,5 +1,5 @@
 import Messages from 'models/message'
-import dbConnect from '../../../lib/dbConnect'
+import dbConnect from '../../lib/dbConnect'
 
 const restricted = <h1>If you are seeing this message, it is because you do not have the proper permissions to view this resource. < br /> If you believe this message to an error, please contact our support team.</h1>
 export default async function handler(req, res) {
