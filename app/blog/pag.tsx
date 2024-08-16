@@ -14,7 +14,7 @@ export default function BlogPage() {
     <section className='grid top-48 h-full lg:ml-6 w-screen'>
       
       <h1 className="font-bold text-center w-screen text-3xl mb-8 tracking-tighter mt-20 text-black">
-        Cocktail Recipes & More
+        Cocktail Recipes & Moreffffff
       </h1>
       <p className='lg:w-1/2 max-lg:w-3/4  grid mx-auto text-lg font-medium'>Thirsty or looking for inspiration to create something new? We have several delicious recipes that are sure to have your guests talking about your drinks for weeks!</p>
       <section className='grid max-lg:grid-cols-2 lg:grid-cols-3 mx-auto  place-content-center justify-center items-center lg:w-5/6'>
